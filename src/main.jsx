@@ -5,13 +5,16 @@ import './index.css';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 
 import Home from './components/Home.jsx';
-import Donation from './components/Donation.jsx';
 import Statistics from './components/Statistics.jsx';
+import GivenDonations from './components/GivenDonations.jsx';
+import ErrorPage from './components/error-page.jsx';
+import DonationDetails from './components/DonationDetails.jsx';
 
 const router = createBrowserRouter([
 	{
 		path: '/',
 		element: <App></App>,
+		errorElement: <ErrorPage></ErrorPage>,
 		children: [
 			{
 				path: '/',
@@ -19,11 +22,16 @@ const router = createBrowserRouter([
 			},
 			{
 				path: '/donation',
-				element: <Donation></Donation>,
+				element: <GivenDonations></GivenDonations>,
 			},
 			{
 				path: '/statistics',
 				element: <Statistics></Statistics>,
+			},
+			{
+				path: '/donations/:id',
+				element: <DonationDetails></DonationDetails>,
+				loader: () => fetch('/data.json')
 			},
 		],
 	},
