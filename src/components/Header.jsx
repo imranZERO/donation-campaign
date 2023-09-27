@@ -20,7 +20,7 @@ const Header = () => {
 			<div className="navbar py-4 md:py-8">
 				<div className="navbar-start">
 					<Link to={'/'}>
-						<img src={'/images/Logo.png'} className="h-14" alt="" />
+						<img src={'/images/Logo.png'} className="h-14 object-contain" alt="" />
 					</Link>
 				</div>
 				<div className="navbar-end">
