@@ -8,14 +8,14 @@ const DonationDetails = () => {
 	const {title, picture, description, price, colorText} = donation;
 
 	return (
-		<div className="max-w-[1366px] mb-12">
+		<div className="max-w-[1366px] mx-auto mb-12 py-10 px-4">
 			<div className="w-full mb-8 relative">
 				<img
 					className="w-full mx-auto rounded-xl lg:rounded-3xl"
 					src={picture}
 					alt=""
 				/>
-				<div className="w-full absolute bottom-0 p-4 md:p-8 bg-black bg-opacity-50 rounded-b-xl lg:rounded-b-3xl">
+				<div className="w-full absolute bottom-0 p-5 md:p-8 bg-black bg-opacity-50 rounded-b-xl lg:rounded-b-3xl">
 					<button
 						className="btn btn-neutral lg:btn-lg text-white capitalize text-lg font-semibold border-0"
 						style={{backgroundColor: `${colorText}`}}>

@@ -12,10 +12,12 @@ const DonationList = () => {
 
 	return (
 		<>
-			<div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-				{donations.map(donation => (
-					<Donation key={donation.id} donation={donation}></Donation>
-				))}
+			<div className="max-w-[1366px] mx-auto mb-12 py-10 px-4">
+				<div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+					{donations.map(donation => (
+						<Donation key={donation.id} donation={donation}></Donation>
+					))}
+				</div>
 			</div>
 		</>
 	);
