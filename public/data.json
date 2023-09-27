@@ -8,7 +8,7 @@
 		"colorCard": "#FF444A26",
 		"colorText": "#FF444A",
 		"description": "Help us provide underprivileged children with the gift of education. Your contribution will go towards school supplies, books, and educational resources to empower young minds. Together, we can break the cycle of poverty through knowledge and learning.",
-		"price": 25
+		"price": 125
 	},
 	{
 		"id": 2,
@@ -19,7 +19,7 @@
 		"colorCard": "#F8714726",
 		"colorText": "#F87147",
 		"description": "Join us in the fight against hunger! Your donation will support local food banks and programs that ensure no one in our community goes to bed hungry. Together, we can provide nourishment and hope to those in need.",
-		"price": 50
+		"price": 250
 	},
 	{
 		"id": 3,
@@ -30,7 +30,7 @@
 		"colorCard": "#0052FF26",
 		"colorText": "#0052FF",
 		"description": "Help us make quality healthcare accessible to everyone. Your contribution will fund medical services, vaccinations, and health education programs for underserved communities. Your support can save lives and ensure a healthier future for all.",
-		"price": 35
+		"price": 135
 	},
 	{
 		"id": 4,
@@ -41,7 +41,7 @@
 		"colorCard": "#79C23F26",
 		"colorText": "#79C23F",
 		"description": "This winter, let's keep those in need warm and cozy. Your donation will provide warm clothing items such as jackets, blankets, and scarves to those without adequate protection from the cold. Together, we can spread warmth and comfort during the coldest months.",
-		"price": 20
+		"price": 320
 	},
 	{
 		"id": 5,
@@ -52,7 +52,7 @@
 		"colorCard": "#FF444A26",
 		"colorText": "#FF444A",
 		"description": "Empower girls through education! Your donation will help break down barriers to girls' education, providing them with the tools and opportunities they need to succeed. Your contribution can change the course of their lives and future generations.",
-		"price": 30
+		"price": 130
 	},
 	{
 		"id": 6,
@@ -63,7 +63,7 @@
 		"colorCard": "#0052FF26",
 		"colorText": "#0052FF",
 		"description": "Be a hero in times of crisis. Your donation will provide emergency medical aid and relief supplies to communities affected by natural disasters and emergencies. Your support can bring hope and relief to those facing adversity.",
-		"price": 45
+		"price": 145
 	},
 	{
 		"id": 7,
@@ -74,7 +74,7 @@
 		"colorCard": "#F8714726",
 		"colorText": "#F87147",
 		"description": "No one should go hungry on our streets. Your donation will help us provide hot meals and essentials to homeless individuals in need. Together, we can make a difference in the lives of those less fortunate.",
-		"price": 15
+		"price": 115
 	},
 	{
 		"id": 8,
@@ -85,7 +85,7 @@
 		"colorCard": "#FF444A26",
 		"colorText": "#FF444A",
 		"description": "Equip disadvantaged children with the tools for success. Your donation will supply school essentials like notebooks, pencils, and backpacks to kids in low-income areas. Your support can empower them to excel in their studies.",
-		"price": 10
+		"price": 210
 	},
 	{
 		"id": 9,
@@ -96,7 +96,7 @@
 		"colorCard": "#0052FF26",
 		"colorText": "#0052FF",
 		"description": "Join the fight against cancer. Your donation will fund groundbreaking research, treatments, and support for patients and families battling this disease. Your contribution can bring hope to those affected by cancer.",
-		"price": 75
+		"price": 375
 	},
 	{
 		"id": 10,
@@ -107,7 +107,7 @@
 		"colorCard": "#79C23F26",
 		"colorText": "#79C23F",
 		"description": "Help us spread warmth and happiness during the cold months. Your donation will provide cozy clothing and blankets to those in need. Together, we can ensure that everyone stays warm and comfortable.",
-		"price": 20
+		"price": 120
 	},
 	{
 		"id": 11,
@@ -118,7 +118,7 @@
 		"colorCard": "#F8714726",
 		"colorText": "#F87147",
 		"description": "Support families facing food insecurity. Your donation will provide nutritious meals and groceries to struggling families in our community. Your generosity can make a meaningful impact on their lives.",
-		"price": 40
+		"price": 140
 	},
 	{
 		"id": 12,
@@ -129,6 +129,6 @@
 		"colorCard": "#FF444A26",
 		"colorText": "#FF444A",
 		"description": "Invest in the future by supporting education. Your donation will help nurture the talents and ambitions of young people, preparing them to become tomorrow's leaders. Your support can shape a brighter tomorrow.",
-		"price": 30
+		"price": 230
 	}
 ]
