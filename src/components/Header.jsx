@@ -16,10 +16,18 @@ const Header = () => {
 	);
 
 	return (
-		<div className='max-w-[1366px] mx-auto'>
+		<div className="max-w-[1366px] mx-auto">
 			<div className="navbar py-4 md:py-8">
 				<div className="navbar-start">
-					<div className="dropdown">
+					<Link to={'/'}>
+						<img src={'/images/Logo.png'} className="h-14" alt="" />
+					</Link>
+				</div>
+				<div className="navbar-end">
+					<ul className="hidden lg:flex menu menu-horizontal px-1 text-lg text-[#0B0B0B]">
+						{links}
+					</ul>
+					<div className="dropdown dropdown-end">
 						<label tabIndex={0} className="btn btn-ghost lg:hidden">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -37,16 +45,10 @@ const Header = () => {
 						</label>
 						<ul
 							tabIndex={0}
-							className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+							className="menu text-lg dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
 							{links}
 						</ul>
 					</div>
-					<Link to={'/'} className="">
-						<img src={'/images/Logo.png'} className="h-14" alt="" />
-					</Link>
-				</div>
-				<div className="navbar-end hidden lg:flex">
-					<ul className="menu menu-horizontal px-1 text-lg text-[#0B0B0B]">{links}</ul>
 				</div>
 			</div>
 		</div>

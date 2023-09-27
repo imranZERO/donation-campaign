@@ -6,7 +6,7 @@ function App() {
 		<>
 			<Header></Header>
 
-			<main className="max-w-[1366px] border mx-auto py-10 px-4">
+			<main className="max-w-[1366px] mx-auto py-10 px-4">
 				<Outlet></Outlet>
 			</main>
 		</>
