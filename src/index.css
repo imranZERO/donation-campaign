@@ -12,3 +12,7 @@ body {
 	text-decoration: underline;
 	font-weight: 600;
 }
+
+.hero {
+	background-image: url('/images/home-bg.png');
+}
